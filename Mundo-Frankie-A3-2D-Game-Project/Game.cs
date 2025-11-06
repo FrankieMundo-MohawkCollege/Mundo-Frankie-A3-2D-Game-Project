@@ -12,13 +12,14 @@ namespace MohawkGame2D
     {
         // Place your variables here:
        Color LightBlue = new Color(173, 216, 230);
-
+       Platform platform = new Platform();
+       Player player = new Player();
         /// <summary>
         ///     Setup runs once before the game loop begins.
         /// </summary>
         public void Setup()
         {
-            Platform platform = new Platform();
+        
         Window.SetTitle("Mundo-Frankie-A3-2D-Game-Project");
         Window.SetSize(800, 600);
         }
@@ -28,9 +29,10 @@ namespace MohawkGame2D
         /// </summary>
         public void Update()
         {
-            
             Window.ClearBackground(LightBlue);
-            
+            platform.Update();
+            player.Update();
+
         }
     }
 
