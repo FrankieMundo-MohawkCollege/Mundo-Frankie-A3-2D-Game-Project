@@ -6,14 +6,15 @@ namespace MohawkGame2D
     {
         public void Setup()
         {
-
+            
         }
 
         public void Update()
         {
             Draw.FillColor = Color.Green;
-            Draw.LineSize = 0;
-            Draw.Rectangle(100, 300, 200, 50);
+            Draw.LineSize = 10;
+            Draw.Rectangle(800, 600, 400, 100);
+
         }
     }
 
