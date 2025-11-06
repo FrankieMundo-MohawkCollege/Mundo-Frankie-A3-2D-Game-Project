@@ -18,7 +18,7 @@ namespace MohawkGame2D
         /// </summary>
         public void Setup()
         {
-        Window.ClearBackground(LightBlue);
+        
         Window.SetTitle("Mundo-Frankie-A3-2D-Game-Project");
         Window.SetSize(800, 600);
         }
@@ -28,7 +28,8 @@ namespace MohawkGame2D
         /// </summary>
         public void Update()
         {
-
+            Window.ClearBackground(LightBlue);
+            Platform platform = new Platform();
         }
     }
 
