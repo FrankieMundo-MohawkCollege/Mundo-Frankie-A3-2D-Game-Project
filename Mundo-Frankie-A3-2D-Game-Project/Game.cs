@@ -11,6 +11,7 @@ namespace MohawkGame2D
     public class Game
     {
         // Place your variables here:
+       Color LightBlue = new Color(173, 216, 230);
 
 
         /// <summary>
