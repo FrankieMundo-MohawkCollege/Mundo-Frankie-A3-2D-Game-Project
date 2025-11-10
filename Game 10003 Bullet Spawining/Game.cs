@@ -50,10 +50,12 @@ namespace MohawkGame2D
 
                 bullets[BulletIndex] = Bullet;
                 BulletIndex++;
-                if (BulletIndex >= Bullets.Length)
+                if (BulletIndex >= Bullets.Length);
+                {
+                    BulletIndex = 0;
 
 
-            }
+                }
         }
     }
   }
